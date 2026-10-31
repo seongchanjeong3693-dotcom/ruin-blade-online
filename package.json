@@ -1,0 +1,12 @@
+{
+  "name": "ruin-blade-online-4p",
+  "private": true,
+  "version": "17.65.0",
+  "description": "RUIN BLADE VI.17.65 4-player co-op online stability beta",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

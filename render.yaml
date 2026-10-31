@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ruin-blade-online-4p
+    runtime: node
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    autoDeployTrigger: commit
+    healthCheckPath: /health
